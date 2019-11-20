@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="#FFFF"
-        android:hint="Enter here\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        android:hint="Enter here          "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
