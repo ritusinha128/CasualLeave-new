@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.CalendarView;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -17,9 +18,9 @@ public class GalleryAdapter extends BaseAdapter {
     private Context ctx;
     private int pos;
     private LayoutInflater inflater;
-    private CalendarView ivGallery;
-    ArrayList<Uri> mArrayUri;
-    public GalleryAdapter(Context ctx, ArrayList<Uri> mArrayUri) {
+    private TextView ivGallery;
+    ArrayList<String> mArrayUri;
+    public GalleryAdapter(Context ctx, ArrayList<String> mArrayUri) {
 
         this.ctx = ctx;
         this.mArrayUri = mArrayUri;
@@ -49,6 +50,8 @@ public class GalleryAdapter extends BaseAdapter {
 
         @SuppressLint("ViewHolder") View itemView = inflater.inflate(R.layout.dateitem, parent, false);
 
+        ivGallery = (TextView) itemView.findViewById(R.id.datetext);
+        ivGallery.setText("    "+mArrayUri.get(position));
         /*ivGallery = (CalendarView) itemView.findViewById(R.id.calendarView);
 
         ivGallery.setOnDateChangeListener(
