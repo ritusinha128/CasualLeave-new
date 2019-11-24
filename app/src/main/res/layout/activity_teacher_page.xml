@@ -23,12 +23,27 @@
         android:id="@+id/applyleave"
         android:layout_width="320dp"
         android:layout_height="40dp"
-        android:layout_marginTop="43dp"
-        android:text="APPLY LEAVE"
+        android:layout_marginTop="124dp"
         android:background="@drawable/buttonround"
+        android:text="APPLY LEAVE"
         android:textColor="#000"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/teacherText" />
+
+    <Button
+        android:id="@+id/myTIME"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="@drawable/buttonround"
+        android:text="TIMETABLE"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/applyleave"
+        app:layout_constraintVertical_bias="0.117" />
 
 </android.support.constraint.ConstraintLayout>

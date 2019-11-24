@@ -12,6 +12,10 @@
         <activity android:name=".composeMsg"></activity>
         <activity android:name=".teacherPage" />
         <activity android:name=".Login" />
+        <activity android:name=".ClassesAdapter" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DayFragment" />
+        <activity android:name=".DaysPagerAdapter" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
