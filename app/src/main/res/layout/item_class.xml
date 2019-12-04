@@ -10,7 +10,7 @@
     <FrameLayout
         android:layout_width="52dp"
         android:layout_height="match_parent"
-        android:background="@drawable/background_time"
+        android:background="#F78A82"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
