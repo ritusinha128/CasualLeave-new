@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "652795448837",
+    "firebase_url": "https://casualleave-d4059.firebaseio.com",
+    "project_id": "casualleave-d4059",
+    "storage_bucket": "casualleave-d4059.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652795448837:android:36432834ea84dfa562166c",
+        "android_client_info": {
+          "package_name": "com.example.casualleaveapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652795448837-4ng53dreg5n430g6k4c496jucofa0beh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.casualleaveapp",
+            "certificate_hash": "3b3dbf70783beed487f2b4adb7a262bd935501c1"
+          }
+        },
+        {
+          "client_id": "652795448837-9s4c56h99vs2d3f437k1icbmnisv727s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMt2tU9ze22onKveefkH3R9QTTmyZ3JL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652795448837-9s4c56h99vs2d3f437k1icbmnisv727s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
