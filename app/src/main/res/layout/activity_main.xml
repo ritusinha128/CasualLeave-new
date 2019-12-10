@@ -47,7 +47,7 @@
         android:fontFamily="@font/lato"
         android:textStyle="bold"
         android:hint="   someone@msrit.edu"
-        android:inputType="textPersonName"
+        android:inputType="textWebEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.652"
         app:layout_constraintStart_toStartOf="parent"

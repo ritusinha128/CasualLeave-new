@@ -8,7 +8,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:652795448837:android:36432834ea84dfa562166c",
+        "mobilesdk_app_id": "1:652795448837:android:eccea09a88cd29c362166c",
         "android_client_info": {
           "package_name": "com.example.casualleaveapp"
         }
@@ -29,7 +29,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBMt2tU9ze22onKveefkH3R9QTTmyZ3JL4"
+          "current_key": "AIzaSyBGZ3ZD2urjuYxj6ahiBg6eTeKIxjDlaj4"
         }
       ],
       "services": {
